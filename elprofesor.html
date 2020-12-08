@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <!-- Confeccionar un programa que permita al usuario ingresar 2 notas y calcular:
+        a.	Suma total
+        b.	Promedio
+        c.	Nota máxima -->
+
+        <script>
+            let nota1 = parseFloat(prompt("Ingrese su primer nota"));
+            let nota2 = parseFloat(prompt("Ingrese se segunda nota"));
+
+            let sumaTotal = nota1 + nota2;
+            let promedio = (nota1 + nota2) / 2;
+
+            document.write (`// La suma de las notas es ${sumaTotal} //`);
+            document.write (`// Tu promedio es ${promedio} //`)
+
+            if (nota1>nota2){
+                document.write (`// Tu mejor nota es ${nota1} //`);
+            } else {
+                document.write (`// Tu mejor nota es ${nota2} //`);
+            }
+
+        </script>
+
+
+
+
+
+
+
+</body>
+</html>

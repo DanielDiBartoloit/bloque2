@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Escribir un script en el cual se ingresen 6 números enteros. Con estos se debe
+ calcular la  suma de los 3 primeros y el producto entre el tercero, el cuarto y el 5to y
+ sumarle el sexto -->
+
+    <script>
+     let primerNumero = parseFloat(prompt("Hola! Elegí tu primer número", "primer número"));
+     let segundoNumero = parseFloat(prompt("Hola! Elegí tu primer segundo número", "segundo número"));
+     let tercerNumero = parseFloat(prompt("Hola! Elegí tu primer tercer número", "tercer número"));
+     let cuartoNumero = parseFloat(prompt("Hola! Elegí tu primer cuarto número", "cuarto número"));
+     let quintoNumero = parseFloat(prompt("Hola! Elegí tu primer quinto número", "quinto número"));
+     let sextoNumero = parseFloat(prompt("Hola! Elegí tu primer sexto número", "sexto número"));
+     let sumaPrimeros = primerNumero + segundoNumero + tercerNumero;
+     let productosSuma = (tercerNumero * cuartoNumero * quintoNumero) + sextoNumero;
+     document.write (`// La suma de los tres primeros números es ${sumaPrimeros} //`);
+     document.write (`// El resultado de la segunda fórmula es ${productosSuma} // `);
+
+    </script>
+
+
+
+
+    
+</body>
+</html>

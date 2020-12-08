@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Crear un script que permita ingresar a una persona su nombre, su correo y su edad. Mostrar un mensaje en pantalla y en la consola diciendo: Hola [nombre], te enviaremos un mail a [correo]-->
+
+
+    <script>
+        let nombreUsuario = prompt("Hola Bienvenido, como te llamas?", "Escriba aquí su nombre");
+        let correoUsuario = prompt("Escribí tu email", "Ejemplo@ejemplo.com");
+        let edadUsuario = parseFloat(prompt("Escribe tu edad", "Años"));
+
+        console.log (`Hola ${nombreUsuario}, te enviaremos un mail a ${correoUsuario}`);
+        document.write (`Hola ${nombreUsuario}, te enviaremos un mail a ${correoUsuario}`);
+
+    </script>
+</body>
+</html>
