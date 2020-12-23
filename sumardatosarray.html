@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      const ArrayAlumnos = [];
+
+      while (true) {
+        const nombreAlumno = prompt(
+          "Ingrese el nombre de un alumno",
+          
+        );
+        if (nombreAlumno === "") {
+          break;
+        } else {
+          ArrayAlumnos.push(nombreAlumno);
+        }
+      }
+
+      document.write(ArrayAlumnos);
+    </script>
+  </body>
+</html>

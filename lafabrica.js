@@ -1,0 +1,1 @@
+let sueldoTotalPersonal= 0;
